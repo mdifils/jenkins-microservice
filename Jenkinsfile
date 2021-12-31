@@ -7,7 +7,7 @@
 // DECLARATIVE SYNTAX
 pipeline {
 	// agent any
-	agent { docker { image 'maven' } }
+	agent { docker { image 'maven:3.8.4' } }
 	stages {
 		stage('Build') {
 			steps {
