@@ -9,3 +9,9 @@ node {
 		echo "Integration Test"
 	}
 }
+// Scripted approach
+// node {
+// 	echo "Build"
+// 	echo "Test"
+// 	echo "Integration Test"
+// }
